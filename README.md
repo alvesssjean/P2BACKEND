@@ -15,7 +15,7 @@
 
 O projeto adota uma estrutura modular e dividida em responsabilidades claras dentro da pasta `app/`:
 
-
+```text
 ├── app/
 │   ├── routes.py          # Camada de Endpoints (HTTP Requests/Responses)
 │   ├── services.py        # Camada de Regras de Negócio
@@ -29,7 +29,7 @@ O projeto adota uma estrutura modular e dividida em responsabilidades claras den
 ├── docker-compose.yml     # Configuração dos Containers PostgreSQL
 ├── pytest.ini             # Configurações do Ambiente de Testes
 └── requirements.txt       # Dependências do Projeto
-
+```text
 
 ## Como Executar o Projeto
 
